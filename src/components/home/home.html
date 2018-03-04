@@ -1,3 +1,20 @@
 <div>
-    <el-input></el-input>
+    Renderizado declarativo <br>
+    <input v-model="message"> <br>
+    {{message}}
+    <br>
+    Renderizado declarativo (v-bind) <br>
+    <span :title="message">
+        ¡Deja tu mouse sobre este mensaje unos segundos para ver el atributo `title` enlazado dinámicamente!
+    </span> <br>
+    Condicianales y blucles <br>
+    v-if <br>
+    <button v-on:click="mostra">Reverse Message</button> <br>
+    <p v-if="seen">Now you see me</p> <br>
+    v-for <br>
+    <ol> 
+        <li v-for="todo in todos">
+        {{ todo.text }}
+        </li>
+    </ol>
 </div>

@@ -8,5 +8,15 @@ import './home.scss'
   }
 })
 export class HomeComponent extends Vue {
+  private message: string = 'Hola Lien'
+  private seen: boolean = true
+  private todos: object[] = [
+    { text: 'Learn JavaScript' },
+    { text: 'Learn Vue' },
+    { text: 'Build something awesome' }
+  ]
 
+  private mostra(): void {
+    this.seen = !this.seen
+  }
 }
