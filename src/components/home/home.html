@@ -9,9 +9,11 @@
     </span> <br>
     Condicianales y blucles <br>
     v-if <br>
-    <button v-on:click="mostra">Reverse Message</button> <br>
+    <button v-on:click="mostra">mostra</button> <br>
     <p v-if="seen">Now you see me</p> <br>
     v-for <br>
+    <input v-model="newElement"> <br>
+    <button v-on:click="insertElement">insert Element</button> <br>
     <ol> 
         <li v-for="todo in todos">
         {{ todo.text }}
