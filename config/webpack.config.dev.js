@@ -6,7 +6,7 @@ const env = require('../environment/dev.env')
 
 webpackConfig.module.rules = [...webpackConfig.module.rules,
   {
-    test: /\.scss$/,
+    test: /\.(scss|css)$/,
     use: [{
       loader: 'style-loader'
     },

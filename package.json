@@ -1,8 +1,8 @@
 {
   "name": "holamundo",
-  "description": "primera clase",
+  "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "Lien",
+  "author": "jalfonso <jalfonso@sorint.it>",
   "private": true,
   "engines": {
     "node": ">=6",
